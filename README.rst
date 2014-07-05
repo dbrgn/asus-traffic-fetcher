@@ -3,7 +3,16 @@ ASUS Traffic Fetcher
 
 Fetch internet traffic data from the Asus RT-N66U web interface.
 
-Usage::
+Requirements
+------------
+
+- Python 2 or 3
+- python-requests library
+
+Usage
+-----
+
+::
 
     Usage:
         asus_traffic.py [-i <ip>] [--tls] -u <username> -p <password>
