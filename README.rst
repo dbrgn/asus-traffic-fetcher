@@ -1,7 +1,8 @@
 ASUS Traffic Fetcher
 ====================
 
-Fetch internet traffic data from the Asus RT-N66U web interface.
+Fetch internet traffic data from the Asus RT-N66U web interface and output it
+as CSV.
 
 Requirements
 ------------
@@ -26,3 +27,8 @@ Usage
         --tls          Use HTTPS on port 8443.
         -u <username>  The router username.
         -p <password>  The router password.
+
+Example output::
+
+    date, rx, tx, total
+    2014-07-05, 1143762, 974313, 2118075

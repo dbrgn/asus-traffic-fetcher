@@ -124,5 +124,7 @@ if __name__ == '__main__':
     for item in data:
         days.append(TrafficDay(item))
 
+    print('date, rx, tx, total')
     for day in days:
-        print(day)
+        if day.rx or day.tx:
+            print('%s, %s, %s, %s' % (day.date.isoformat(), day.rx, day.tx, day.total))
